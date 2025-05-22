@@ -1,7 +1,14 @@
 package code;
 
-import arc.*;
+import mindustry.ctype.ContentList;
 import block.pers;
+public class Load implements ContentList {
 
-new block1 = FontSinal()
-new block2 = BlocoControleArmazenamento("test1")
+    public static Block fontSinal, blocoControleArmazenamento;
+
+    @Override
+    public void load() {
+        fontSinal = new FontSinal();
+        blocoControleArmazenamento = new BlocoControleArmazenamento("test");
+    }
+}
