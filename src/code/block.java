@@ -12,8 +12,9 @@ import mindustry.Vars;
 import mindustry.gen.Call;
 
 public class FontSinal extends Block{
+      public FontSinal(String name) {
         super(name);
-
+}
 }
 
 
