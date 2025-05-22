@@ -11,13 +11,6 @@ import mindustry.ctype.ContentList;
 import mindustry.Vars;
 import mindustry.gen.Call;
 
-public class FontSinal extends Block{
-      public FontSinal(String name) {
-        super(name);
-}
-}
-
-
 public class BlocoControleArmazenamento extends Block {
 
     public BlocoControleArmazenamento(String name) {
