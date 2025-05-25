@@ -1,4 +1,4 @@
-package blocks.pers;
+package blocks;
 
 import mindustry.world.Block;
 import mindustry.world.BlockGroup;

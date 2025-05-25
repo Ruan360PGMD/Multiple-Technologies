@@ -8,7 +8,7 @@ name: "Mod tech logic"
 author: "Ruan360PGMD"
 
 #the fully qualified main class of the mod
-main: "code.Load"
+main: "Main.loadMod"
 
 #the mod description as seen in the mod dialog
 description: "A Mindustry Java mod template."
