@@ -12,6 +12,6 @@ public class BlockMod implements ContentList {
     @Override
     public void load() {
         // Aqui vamos só inicializar o bloco simples (sem configurar ainda)
-        new blockArmazen = BlocoControleArmazenamento("Bloco-Controle-Armazenamento") { };
+        blockArmazen = new BlocoControleArmazenamento("Bloco-Controle-Armazenamento");
     }
 }
