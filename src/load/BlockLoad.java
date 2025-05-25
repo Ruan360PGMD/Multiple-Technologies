@@ -3,7 +3,7 @@ package load;
 import mindustry.world.Block;
 import mindustry.ctype.ContentList;
 
-import block.BlocoControleArmazenamento;
+import blocks.BlocoControleArmazenamento;
 
 public class BlockLoad implements ContentList {
 

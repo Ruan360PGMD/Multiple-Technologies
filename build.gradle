@@ -71,8 +71,8 @@ task jarAndroid{
 jar{
     archiveFileName = "${base.archivesBaseName}Desktop.jar"
 
-    from{
-        configurations.runtimeClasspath.collect{ it.isDirectory() ? it : zipTree(it) }
+    from {
+    sourceSets.main.output
     }
 
     from(projectDir){
