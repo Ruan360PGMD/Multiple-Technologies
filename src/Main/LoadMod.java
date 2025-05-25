@@ -5,9 +5,9 @@ import mindustry.mod.Mod;
 
 import load.BlockLoad;
 
-public class loadMod extends Mod {
+public class LoadMod extends Mod {
 
-    public loadMod() {
+    public LoadMod() {
         Log.info("Meu mod foi carregado!");
     }
 
