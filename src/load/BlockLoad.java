@@ -5,7 +5,7 @@ import mindustry.ctype.ContentList;
 
 import block.BlocoControleArmazenamento;
 
-public class BlockMod implements ContentList {
+public class BlockLoad implements ContentList {
 
     public static Block blockArmazen;
 
